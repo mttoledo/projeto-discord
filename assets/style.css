@@ -1,0 +1,130 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+    font-family: "Open Sans";
+    background-color: white;
+}
+
+img {
+    max-width: 100%; 
+    height: auto; 
+    display: block; 
+}
+
+h1 {
+    font-family: "Luckiest Guy";
+    font-weight: 400;
+    font-size: 2.875rem;
+    line-height: 100%;
+    margin-bottom: 1.56rem;
+}
+
+h2 {
+    font-weight: 800;
+    font-size: 2.5rem;
+    color: #23272A;
+    padding-top: 0.625rem;
+}
+
+/* Início Configurações do Header */
+
+header {
+    width: 100%;
+    background-image: url(images/header-bg.png);
+    background-size: cover;
+    background-position: center center;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5rem 1.25rem;
+}
+
+header p {
+    margin-bottom: 1.25rem;
+    font-weight: 400;
+    font-size: 1rem;
+    max-width: 53.125rem;
+}
+
+header button {
+    height: 2.75rem;
+    padding: 0 0.937rem;
+    border: none;
+    border-radius: 1.75rem;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+header button#windows {
+    max-width: 16.925rem;
+}
+
+header button#browser {
+    max-width: 23.825rem;
+    color: white;
+    background-color: #23272A;
+}
+
+/* Início das Configurações do Main */
+
+main {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+}
+
+main p {
+    padding-top: 1.25rem
+}
+
+.normal-content {
+    padding: 2.5rem 0.625rem;
+    display: flex;
+    justify-content: center;
+}
+
+.normal-content div {
+    max-width: 20rem;
+}
+
+.expanded-content {
+    padding: 2.5rem 0.625rem;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.expanded-content div {
+    max-width: 55rem;
+}
+
+.alternative {
+    width: 100%;
+    background-color: #F6F6F6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Início das Configurações Footer */
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #23272A;
+    padding: 1.25rem 0;
+}

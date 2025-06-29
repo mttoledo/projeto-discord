@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+.normal-content {
+    flex-direction: column; 
+    text-align: center; 
+    align-items: center;
+    padding: 2.5rem 1.25rem;
+}
+
+.normal-content div {
+    max-width: 90%; 
+}
+
+.alternative .normal-content {
+    flex-direction: column-reverse;
+}
